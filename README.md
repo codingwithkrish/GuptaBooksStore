@@ -1,2 +1,0 @@
-# GuptaBooksStore
-GuptaBooksStore
