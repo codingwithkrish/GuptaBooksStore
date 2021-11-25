@@ -1,0 +1,256 @@
+2021-11-22T06:19:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-11-22T06:23:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-11-22T06:29:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-includes\functions.php on line 2231
+
+2021-11-22T06:32:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-11-22T06:38:22+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T06:44:03+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T06:44:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-includes\wp-db.php on line 2056
+
+2021-11-22T06:48:32+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T06:59:21+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T07:09:46+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T07:13:25+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T07:15:31+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(175): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T07:15:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-includes\Requests\Transport\cURL.php on line 462
+
+2021-11-22T07:19:32+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T07:23:39+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T07:28:32+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array","Array"],"element":"Array"} in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php:851
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4279)
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\guptabooks\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\elementor\core\base\document.php on line 851
+
+2021-11-22T07:33:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-includes\wp-db.php on line 2056
+
+2021-11-22T09:47:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\DataStore.php on line 8
+
+2021-11-22T12:01:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in E:\xampp\htdocs\guptabooks\wp-content\themes\astra\assets\svg\svgs.json on line 1
+
+2021-11-22T13:35:14+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-11-22T13:3...', 'cartflows')
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1637588113, 'info', 'Start-Cartflows...', Array)
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(80): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(61): Cartflows_Logger->log('Start-Cartflows...')
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#8 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\class-wc-order.php(1608): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 E:\xampp\htdocs\guptabooks\wp-content\plugins\upi-qr-code-payment-for-woocommerce\includes\payment.php(515): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WC_UPI_Payment_Gateway->generate_qr_code(4554)
+#12 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\templates\checkout\order-receipt.php(44): do_action('woocommerce_rec...', 4554)
+#15 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\xampp\\htdocs...')
+#16 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(208): wc_get_template('checkout/order-...', Array)
+#17 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(59): WC_Shortcode_Checkout::order_pay(4554)
+#18 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#19 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#20 E:\xampp\htdocs\guptabooks\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#21 [internal function]: do_shortcode_tag(Array)
+#22 E:\xampp\htdocs\guptabooks\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#23 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#24 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#25 E:\xampp\htdocs\guptabooks\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#26 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\template-parts\content-page.php(54): the_content()
+#27 E:\xampp\htdocs\guptabooks\wp-includes\template.php(772): require('E:\\xampp\\htdocs...')
+#28 E:\xampp\htdocs\guptabooks\wp-includes\template.php(716): load_template('E:\\xampp\\htdocs...', false, Array)
+#29 E:\xampp\htdocs\guptabooks\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#30 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\inc\class-astra-loop.php(109): get_template_part('template-parts/...', 'page')
+#31 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): Astra_Loop->template_parts_page('')
+#32 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#33 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#34 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\inc\class-astra-loop.php(197): do_action('astra_page_temp...')
+#35 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\inc\class-astra-loop.php(174): Astra_Loop->loop_markup(true)
+#36 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): Astra_Loop->loop_markup_page('')
+#37 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#38 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#39 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#40 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#41 E:\xampp\htdocs\guptabooks\wp-includes\template-loader.php(106): include('E:\\xampp\\htdocs...')
+#42 E:\xampp\htdocs\guptabooks\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#43 E:\xampp\htdocs\guptabooks\index.php(17): require('E:\\xampp\\htdocs...')
+#44 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-11-22T15:49:05+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-11-22T15:4...', 'cartflows')
+#3 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1637596144, 'info', 'Start-Cartflows...', Array)
+#4 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(80): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(61): Cartflows_Logger->log('Start-Cartflows...')
+#6 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#8 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\class-wc-order.php(1608): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 E:\xampp\htdocs\guptabooks\wp-content\plugins\upi-qr-code-payment-for-woocommerce\includes\payment.php(515): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): WC_UPI_Payment_Gateway->generate_qr_code(4555)
+#12 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\templates\checkout\order-receipt.php(44): do_action('woocommerce_rec...', 4555)
+#15 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\xampp\\htdocs...')
+#16 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(208): wc_get_template('checkout/order-...', Array)
+#17 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(59): WC_Shortcode_Checkout::order_pay(4555)
+#18 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#19 E:\xampp\htdocs\guptabooks\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#20 E:\xampp\htdocs\guptabooks\wp-includes\shortcodes.php(356): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#21 [internal function]: do_shortcode_tag(Array)
+#22 E:\xampp\htdocs\guptabooks\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#23 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): do_shortcode('[woocommerce_ch...')
+#24 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(189): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#25 E:\xampp\htdocs\guptabooks\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#26 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\template-parts\content-page.php(54): the_content()
+#27 E:\xampp\htdocs\guptabooks\wp-includes\template.php(772): require('E:\\xampp\\htdocs...')
+#28 E:\xampp\htdocs\guptabooks\wp-includes\template.php(716): load_template('E:\\xampp\\htdocs...', false, Array)
+#29 E:\xampp\htdocs\guptabooks\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#30 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\inc\class-astra-loop.php(109): get_template_part('template-parts/...', 'page')
+#31 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): Astra_Loop->template_parts_page('')
+#32 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#33 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#34 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\inc\class-astra-loop.php(197): do_action('astra_page_temp...')
+#35 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\inc\class-astra-loop.php(174): Astra_Loop->loop_markup(true)
+#36 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(303): Astra_Loop->loop_markup_page('')
+#37 E:\xampp\htdocs\guptabooks\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#38 E:\xampp\htdocs\guptabooks\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#39 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#40 E:\xampp\htdocs\guptabooks\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#41 E:\xampp\htdocs\guptabooks\wp-includes\template-loader.php(106): include('E:\\xampp\\htdocs...')
+#42 E:\xampp\htdocs\guptabooks\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#43 E:\xampp\htdocs\guptabooks\index.php(17): require('E:\\xampp\\htdocs...')
+#44 {main}
+  thrown in E:\xampp\htdocs\guptabooks\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
